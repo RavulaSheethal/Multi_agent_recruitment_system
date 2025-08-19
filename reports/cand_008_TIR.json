@@ -1,0 +1,39 @@
+{
+  "candidate_id": "cand_008",
+  "name": "Meera Iyer",
+  "top_skills": [
+    {
+      "skill": "Python",
+      "confidence": 0.55
+    }
+  ],
+  "experience_summary": "2 role(s) across Cybersecurity; latest role: Cybersecurity Engineer.",
+  "career_progression": [
+    {
+      "period": "2021–2023",
+      "role": "Security Analyst",
+      "highlights": [
+        "Performed penetration tests",
+        "Wrote security audits",
+        "Trained interns"
+      ]
+    },
+    {
+      "period": "2023–2025",
+      "role": "Cybersecurity Engineer",
+      "highlights": [
+        "Secured cloud workloads",
+        "Monitored threats",
+        "Automated vulnerability scanning"
+      ]
+    }
+  ],
+  "repos_and_activity": [
+    "pentest-tools",
+    "aws-secure"
+  ],
+  "red_flags_or_gaps": [],
+  "overall_fit_tags": [
+    "Generalist"
+  ]
+}

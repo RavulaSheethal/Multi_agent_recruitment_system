@@ -1,0 +1,36 @@
+{
+  "candidate_id": "cand_001",
+  "summary": "Behavioral indicators derived from anonymized conversation snippets. Demographic signals ignored.",
+  "themes": [
+    {
+      "theme": "Collaboration",
+      "confidence": 0.5,
+      "evidence": [
+        "Let's pair on the bug and clarify the expected behavior. I'll summarize findings by EOD.",
+        "I investigated the root cause and documented steps to reproduce. Need help to unblock deployment."
+      ]
+    },
+    {
+      "theme": "Problem-Solving",
+      "confidence": 0.5,
+      "evidence": [
+        "I investigated the root cause and documented steps to reproduce. Need help to unblock deployment."
+      ]
+    },
+    {
+      "theme": "Communication",
+      "confidence": 0.6,
+      "evidence": [
+        "Let's pair on the bug and clarify the expected behavior. I'll summarize findings by EOD.",
+        "I investigated the root cause and documented steps to reproduce. Need help to unblock deployment."
+      ]
+    },
+    {
+      "theme": "Ownership",
+      "confidence": 0.4,
+      "evidence": [
+        "I investigated the root cause and documented steps to reproduce. Need help to unblock deployment."
+      ]
+    }
+  ]
+}

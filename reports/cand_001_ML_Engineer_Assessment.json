@@ -1,0 +1,26 @@
+{
+  "role": "ML Engineer",
+  "level": "Junior/Mid",
+  "technical_challenges": [
+    {
+      "title": "Build & Evaluate a Baseline Model",
+      "prompt": "Given a small CSV with features and a target, train a baseline model, report metrics, and discuss error analysis.",
+      "expected_competencies": [
+        "Data Prep",
+        "Modeling",
+        "Evaluation"
+      ]
+    }
+  ],
+  "evaluation_framework": {
+    "Problem-solving": 40,
+    "Code quality": 30,
+    "Communication": 30
+  },
+  "bias_mitigation_protocol": [
+    "Evaluate using rubric only; ignore names, photos, demographics.",
+    "Blind review: hide personal identifiers in submissions.",
+    "Double-score borderline submissions with a second reviewer.",
+    "Use structured feedback template with evidence-based comments."
+  ]
+}

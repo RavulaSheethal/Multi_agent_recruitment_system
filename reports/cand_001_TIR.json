@@ -1,0 +1,52 @@
+{
+  "candidate_id": "cand_001",
+  "name": "Aarav Mehta",
+  "top_skills": [
+    {
+      "skill": "MLOps",
+      "confidence": 0.85
+    },
+    {
+      "skill": "Python",
+      "confidence": 0.7
+    },
+    {
+      "skill": "Machine Learning",
+      "confidence": 0.55
+    },
+    {
+      "skill": "Backend",
+      "confidence": 0.55
+    }
+  ],
+  "experience_summary": "2 role(s) across Applied ML, MLOps; latest role: ML Engineer.",
+  "career_progression": [
+    {
+      "period": "2023–2024",
+      "role": "Jr. ML Engineer",
+      "highlights": [
+        "Built baseline models for tabular data",
+        "Set up evaluation metrics",
+        "Documented experiments"
+      ]
+    },
+    {
+      "period": "2024–2025",
+      "role": "ML Engineer",
+      "highlights": [
+        "Packaged models with FastAPI",
+        "Dockerized inference service",
+        "Wrote CI checks"
+      ]
+    }
+  ],
+  "repos_and_activity": [
+    "ml-baselines",
+    "fastapi-infer"
+  ],
+  "red_flags_or_gaps": [],
+  "overall_fit_tags": [
+    "ML Platform",
+    "Applied ML"
+  ]
+}

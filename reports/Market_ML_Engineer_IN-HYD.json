@@ -1,0 +1,12 @@
+{
+  "role": "ML Engineer",
+  "location": "IN-HYD",
+  "median": 1050000.0,
+  "p25": 975000.0,
+  "p75": 1125000.0,
+  "recommended_channels": [
+    "Job Board",
+    "OSS Community",
+    "Referral"
+  ]
+}

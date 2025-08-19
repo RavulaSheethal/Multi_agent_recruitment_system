@@ -1,0 +1,4 @@
+{"candidate_id":"cand_001","text":"Let's pair on the bug and clarify the expected behavior. I'll summarize findings by EOD."}
+{"candidate_id":"cand_001","text":"I investigated the root cause and documented steps to reproduce. Need help to unblock deployment."}
+{"candidate_id":"cand_002","text":"Team, can we align on the approach? I can explain the trade-offs and update the doc."}
+{"candidate_id":"cand_002","text":"Follow up on the failed batch job; hypothesis is schema drift. Will debug and report back."}

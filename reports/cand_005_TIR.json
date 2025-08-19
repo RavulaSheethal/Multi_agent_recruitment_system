@@ -1,0 +1,47 @@
+{
+  "candidate_id": "cand_005",
+  "name": "Vikram Singh",
+  "top_skills": [
+    {
+      "skill": "NLP",
+      "confidence": 0.85
+    },
+    {
+      "skill": "Python",
+      "confidence": 0.55
+    },
+    {
+      "skill": "Deep Learning",
+      "confidence": 0.55
+    }
+  ],
+  "experience_summary": "2 role(s) across NLP; latest role: Senior Data Scientist.",
+  "career_progression": [
+    {
+      "period": "2020–2023",
+      "role": "Data Scientist",
+      "highlights": [
+        "Trained text classifiers",
+        "Implemented BERT embeddings",
+        "Published blog posts"
+      ]
+    },
+    {
+      "period": "2023–2025",
+      "role": "Senior Data Scientist",
+      "highlights": [
+        "Led team on chatbot project",
+        "Optimized transformer models",
+        "Guided junior members"
+      ]
+    }
+  ],
+  "repos_and_activity": [
+    "bert-finetune",
+    "chatbot-nlp"
+  ],
+  "red_flags_or_gaps": [],
+  "overall_fit_tags": [
+    "Applied ML"
+  ]
+}
