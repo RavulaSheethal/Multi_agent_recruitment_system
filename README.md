@@ -23,48 +23,82 @@ Flow: Candidate Data → Candidate Profiler → Assessment Designer and Behavior
 ##Repository Structure
 
 Multi_agent_recruitment_system/
+
 data → Contains synthetic datasets used for the demo.
+
 synthetic_profiles.jsonl – synthetic candidate profiles.
+
 reports → Stores generated output reports in JSON and Markdown formats.
+
 src → Core source code for the project.
+
 agents → Individual AI agents.
+
 candidate_profiler.py – Extracts candidate skills & generates Talent Intelligence Report.
+
 assessment_designer.py – Creates challenges, rubrics, and bias mitigation protocols.
+
 behavioral_analyzer.py – Analyzes candidate communication for soft skills.
+
 market_optimizer.py – Provides salary benchmarks & sourcing insights.
+
 shared → Utilities and shared schemas.
+
 nlp_utils.py – Common NLP helper functions.
+
 schemas.py – Data models to ensure consistent structure.
+
 appcli.py → Command Line Interface (entry point for running agents).
+
 requirements.txt → Python dependencies.
 
 
 ##Setup Instructions
 
 Clone Repository
+
 git clone https://github.com/RavulaSheethal/Multi_agent_recruitment_system.git
+
 cd Multi_agent_recruitment_system
+
 Create Virtual Environment
+
 python -m venv .venv
+
 ..venv\Scripts\activate (On Windows)
+
 source .venv/bin/activate (On Mac/Linux)
+
 Install Dependencies
+
 pip install -r requirements.txt
 
 ##Usage Guide
 
 Generate Candidate Profile
+
 python -m app.cli profile --candidate_id cand_001
+
 Run Assessment Designer
+
 python -m app.cli assess --candidate_id cand_001
+
 Run Behavioral Analyzer
+
 python -m app.cli behavior --candidate_id cand_001
+
 Get Market Insights
+
 python -m app.cli market --role "ML Engineer" --location "IN-HYD"
+
 Reports are saved under the reports/ folder in both JSON and Markdown formats.
+
 Bias Mitigation
+
 Demographics excluded. Only skills, experience, and behavior are analyzed.
+
 Assessments tailored to roles, not personal background.
+
 Ensures fairness and transparency in candidate evaluation.
 
 ##Future Improvements
