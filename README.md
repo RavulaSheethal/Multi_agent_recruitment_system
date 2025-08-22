@@ -2,7 +2,7 @@ This project implements a multi-agent system for intelligent recruitment.
 The system simulates the recruitment process by profiling candidates, designing assessments, analyzing behavior, and optimizing market insights.
 It demonstrates how AI agents can collaborate to make hiring more efficient, unbiased, and scalable.
 
-##System Architecture
+### System Architecture
 
 The solution is built around four specialized agents:
 Candidate Profiler
@@ -20,7 +20,7 @@ Helps align recruitment strategy with current market trends.
 
 Flow: Candidate Data → Candidate Profiler → Assessment Designer and Behavioral Analyzer → Market Optimizer → Reports
 
-##Repository Structure
+### Repository Structure
 
 Multi_agent_recruitment_system/
 
@@ -53,7 +53,7 @@ appcli.py → Command Line Interface (entry point for running agents).
 requirements.txt → Python dependencies.
 
 
-##Setup Instructions
+### Setup Instructions
 
 Clone Repository
 
@@ -101,7 +101,7 @@ Assessments tailored to roles, not personal background.
 
 Ensures fairness and transparency in candidate evaluation.
 
-##Future Improvements
+### Future Improvements
 
 Add a Streamlit or Flask UI for live interaction.
 Expand synthetic dataset to include more diverse roles and behaviors.
