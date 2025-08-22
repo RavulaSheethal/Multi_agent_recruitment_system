@@ -73,7 +73,7 @@ Install Dependencies
 
 pip install -r requirements.txt
 
-##Usage Guide
+### Usage Guide
 
 Generate Candidate Profile
 
