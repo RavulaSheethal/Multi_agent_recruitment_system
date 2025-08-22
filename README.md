@@ -3,6 +3,7 @@ The system simulates the recruitment process by profiling candidates, designing 
 It demonstrates how AI agents can collaborate to make hiring more efficient, unbiased, and scalable.
 
 ##System Architecture
+
 The solution is built around four specialized agents:
 Candidate Profiler
 Generates a Talent Intelligence Report (TIR) for each candidate.
@@ -20,6 +21,7 @@ Helps align recruitment strategy with current market trends.
 Flow: Candidate Data → Candidate Profiler → Assessment Designer and Behavioral Analyzer → Market Optimizer → Reports
 
 ##Repository Structure
+
 Multi_agent_recruitment_system/
 data → Contains synthetic datasets used for the demo.
 synthetic_profiles.jsonl – synthetic candidate profiles.
@@ -38,6 +40,7 @@ requirements.txt → Python dependencies.
 
 
 ##Setup Instructions
+
 Clone Repository
 git clone https://github.com/RavulaSheethal/Multi_agent_recruitment_system.git
 cd Multi_agent_recruitment_system
@@ -49,6 +52,7 @@ Install Dependencies
 pip install -r requirements.txt
 
 ##Usage Guide
+
 Generate Candidate Profile
 python -m app.cli profile --candidate_id cand_001
 Run Assessment Designer
@@ -64,6 +68,7 @@ Assessments tailored to roles, not personal background.
 Ensures fairness and transparency in candidate evaluation.
 
 ##Future Improvements
+
 Add a Streamlit or Flask UI for live interaction.
 Expand synthetic dataset to include more diverse roles and behaviors.
 Integrate with real-world job boards or ATS for sourcing candidates.
