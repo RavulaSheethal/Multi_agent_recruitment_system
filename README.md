@@ -2,7 +2,7 @@ This project implements a multi-agent system for intelligent recruitment.
 The system simulates the recruitment process by profiling candidates, designing assessments, analyzing behavior, and optimizing market insights.
 It demonstrates how AI agents can collaborate to make hiring more efficient, unbiased, and scalable.
 
-System Architecture
+##System Architecture
 The solution is built around four specialized agents:
 Candidate Profiler
 Generates a Talent Intelligence Report (TIR) for each candidate.
@@ -19,29 +19,25 @@ Helps align recruitment strategy with current market trends.
 
 Flow: Candidate Data → Candidate Profiler → Assessment Designer and Behavioral Analyzer → Market Optimizer → Reports
 
-Repository Structure
+##Repository Structure
 Multi_agent_recruitment_system/
-│
-├── data/
-│ └── synthetic_profiles.jsonl (Synthetic candidate profiles)
-│
-├── reports/ (Output reports in JSON and Markdown)
-│
-├── src/
-│ ├── agents/
-│ │ ├── candidate_profiler.py
-│ │ ├── assessment_designer.py
-│ │ ├── behavioral_analyzer.py
-│ │ └── market_optimizer.py
-│ └── shared/
-│ ├── nlp_utils.py
-│ └── schemas.py
-│
-├── requirements.txt (Python dependencies)
-├── README.md (Project documentation)
-└── app/cli.py (CLI entry point)
+data → Contains synthetic datasets used for the demo.
+synthetic_profiles.jsonl – synthetic candidate profiles.
+reports → Stores generated output reports in JSON and Markdown formats.
+src → Core source code for the project.
+agents → Individual AI agents.
+candidate_profiler.py – Extracts candidate skills & generates Talent Intelligence Report.
+assessment_designer.py – Creates challenges, rubrics, and bias mitigation protocols.
+behavioral_analyzer.py – Analyzes candidate communication for soft skills.
+market_optimizer.py – Provides salary benchmarks & sourcing insights.
+shared → Utilities and shared schemas.
+nlp_utils.py – Common NLP helper functions.
+schemas.py – Data models to ensure consistent structure.
+appcli.py → Command Line Interface (entry point for running agents).
+requirements.txt → Python dependencies.
 
-Setup Instructions
+
+##Setup Instructions
 Clone Repository
 git clone https://github.com/RavulaSheethal/Multi_agent_recruitment_system.git
 cd Multi_agent_recruitment_system
@@ -52,7 +48,7 @@ source .venv/bin/activate (On Mac/Linux)
 Install Dependencies
 pip install -r requirements.txt
 
-Usage Guide
+##Usage Guide
 Generate Candidate Profile
 python -m app.cli profile --candidate_id cand_001
 Run Assessment Designer
@@ -67,7 +63,7 @@ Demographics excluded. Only skills, experience, and behavior are analyzed.
 Assessments tailored to roles, not personal background.
 Ensures fairness and transparency in candidate evaluation.
 
-Future Improvements
+##Future Improvements
 Add a Streamlit or Flask UI for live interaction.
 Expand synthetic dataset to include more diverse roles and behaviors.
 Integrate with real-world job boards or ATS for sourcing candidates.
